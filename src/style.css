@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{ 
+    background-color: #242424;
+}
+
+.bgDarkest{
+    background-color: #1b1b1b;
+}
+
+.bgLightest{
+    background-color: #38373F;
+}
+
+.bgBlue{
+    background-color: rgba(100, 166, 243, 0.75);
+}
+
+.bgOrange{
+    background-color: #F45D08;
+}
+
+
+.borderOrange{
+    border: 1px solid #F45D08
+}
+
+.bgLighter{
+    background-color: #242424;
+}
+
+.bgDarker{
+    background-color: #2D2D2D
+}
+
+.textBlue{
+    color: rgba(100, 166, 243, 0.75);
+}
+
+.textLight{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.textWhite{
+    color: #FFFFFF;
+}
+
+.headerIconHeight{
+    font-size: 1.25em;
+}
+
+.textOrange{
+    color: #F45D08
+}
+
+.orangeBorder{
+    border: solid 1px #F45D08;
+}
+
+.borderBottomBlue{
+    border-bottom: solid 1px rgba(100, 166, 243, 0.75);
+}
+
+.borderBottomOrange{
+    border-bottom: solid 1px  #F45D08;
+}   
+
+.borderRightOrange{
+    border-right:  solid 1px  #F45D08;
+}
+
+.card{
+    background-color: #1E1E1E;
+    border: solid 1px rgba(100, 166, 243, 0.75);
+}
+
+
+.cardProductName{
+    height: 4em;
+}
+
+.cardImage{
+    background-color: #1E1E1E;
+    max-width: 100%;
+}
+
+.productPageImage{
+    max-width: 50%;
+}
+
+

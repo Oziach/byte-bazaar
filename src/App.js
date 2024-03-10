@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import LandingProductsListing from "./components/LandingProductsListing";
 import ProductPage from "./components/ProductPage";
 import ProductsListingPage from "./components/ProductsListingPage";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" Component={LandingProductsListing}></Route>
           <Route path="/productPage" Component={ProductPage}></Route>
           <Route path="/productsListing" Component={ProductsListingPage}></Route>
+          <Route path="/login" Component={Login}></Route>
         </Routes>
         
       </Router>

@@ -40,12 +40,14 @@ function Header(){
             <FontAwesomeIcon icon={faShoppingCart} />
         </button>
 
+        <Link exact to={"/login"}>
         <button className='d-flex flex-row m-2 align-items-center orangeBorder px-3 rounded-1 bg-transparent'>
             <div className='textWhite me-2 headerIconHeight'>
             <FontAwesomeIcon icon={faUser} />
             </div>
             <span className='textWhite'>Login</span>
         </button>
+        </Link>
         
         </div>
 

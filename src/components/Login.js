@@ -11,14 +11,14 @@ function Login(){
     return(
         <div>
 
-        <div className="mx-auto  mt-5 col-5">
+        <div className="mx-auto  mt-5 col-5 shadow rounded-1 bgDarkest p-3 pt-2">
             <div className="mx-auto text-center">
                     <h2 className="mt-2 mb-2 textBlue">Login</h2>
             </div>
 
             <div className="borderBottomBlue my-2 mb-3"/>
 
-            <div className="p-3 pt-0">
+            <form className="p-3 pt-0">
 
                 {(incorrectLogin &&
                         <div className={"text-danger "}>Incorrect username or password</div>
@@ -26,7 +26,7 @@ function Login(){
 
                 <label className="w-100">
                     <div className="text-start">Email:</div>
-                    <input
+                    <input required
                         type="text"
                         value={email}
                         onChange={(event)=>setEmail(event.target.value)}
@@ -36,7 +36,7 @@ function Login(){
 
                 <label className="w-100">
                     <div className="text-start">Password:</div>
-                    <input 
+                    <input required
                         type="password"
                         value={password}
                         onChange={(event)=>setPassword(event.target.value)}
@@ -44,14 +44,14 @@ function Login(){
                     />
                 </label>
 
+                <div className="text-center mt-3">       
+                    <button type="submit" className="text-center btn bgBlue textWhite ms-auto w-25 fw-bold">Login</button>
+                </div>
+                
 
-            </div>
+            </form>
                 
-            <div className="text-center">       
-                <button className="text-center btn bgBlue textWhite ms-auto w-25 fw-bold">Login</button>
-            </div>
-                
-            <hr className="mx-5 mt-4"/>
+            <hr className="mx-5 mt-2"/>
             <div className="text-center">
                 Don't have an account? <br/>
                 <Link exact to="/signup">

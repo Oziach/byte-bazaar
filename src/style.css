@@ -37,6 +37,10 @@ body{
     background-color: #2D2D2D
 }
 
+.bgAuth{
+    background-color: #38373F;
+}
+
 .textBlue{
     color: rgba(100, 166, 243, 0.75);
 }
@@ -92,4 +96,14 @@ body{
     max-width: 50%;
 }
 
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

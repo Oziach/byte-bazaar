@@ -40,7 +40,7 @@ function Header(){
             <FontAwesomeIcon icon={faShoppingCart} />
         </button>
 
-        <Link exact to={"/login"}>
+        <Link exact to={"/login"} className='text-decoration-none'>
         <button className='d-flex flex-row m-2 align-items-center orangeBorder px-3 rounded-1 bg-transparent'>
             <div className='textWhite me-2 headerIconHeight'>
             <FontAwesomeIcon icon={faUser} />

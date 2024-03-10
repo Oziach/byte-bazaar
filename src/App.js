@@ -8,10 +8,11 @@ import LandingProductsListing from "./components/LandingProductsListing";
 import ProductPage from "./components/ProductPage";
 import ProductsListingPage from "./components/ProductsListingPage";
 import Login from "./components/Login";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
-    <div className="App textWhite">
+    <div className="textWhite">
       <Router>
 
         <Header/>
@@ -21,6 +22,7 @@ function App() {
           <Route path="/productPage" Component={ProductPage}></Route>
           <Route path="/productsListing" Component={ProductsListingPage}></Route>
           <Route path="/login" Component={Login}></Route>
+          <Route path="/signup" Component={SignUp}></Route>
         </Routes>
         
       </Router>

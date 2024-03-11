@@ -5,51 +5,51 @@ function HeaderBottom(){
     return(
         <div className="d-flex bgDarkest align-items-center justify-content-start textWhite border-0 py-1" style={{fontSize:'0.8em'}}>
             
-            <Link to="/productsListing"> {/*this is temporary to access that page for now*/}
-            <div className="d-inline-block text-center px-3" style={{borderRight:'solid 1px  rgba(100, 166, 243, 0.75)'}}>
+            <Link to="/productsListing">
+            <div className="d-inline-block text-center px-3 text-decoration-none textWhite" style={{borderRight:'solid 1px  rgba(100, 166, 243, 0.75)'}}>
                 Categories
             </div>
             </Link>
 
-            <div className="d-inline-block mx-3">
+            <Link exact to="/productsListing" className="d-inline-block mx-3 text-decoration-none textWhite">
                 Headphones
-            </div>
+            </Link>
 
-            <div className="d-inline-block mx-3">
+            <Link exact to="/productsListing" className="d-inline-block mx-3 text-decoration-none textWhite">
                 Laptops
-            </div>
+            </Link>
 
-            <div className="d-inline-block mx-3">
+            <Link exact to="/productsListing" className="d-inline-block mx-3 text-decoration-none textWhite">
                 RAM
-            </div>
+            </Link>
 
-            <div className="d-inline-block mx-3">
+            <Link exact to="/productsListing" className="d-inline-block mx-3 text-decoration-none textWhite">
                 Chargers
-            </div>
+            </Link>
 
-            <div className="d-inline-block mx-3">
+            <Link exact to="/productsListing" className="d-inline-block mx-3 text-decoration-none textWhite">
                 Mobiles
-            </div>
+            </Link>
 
-            <div className="d-inline-block mx-3">
+            <Link exact to="/productsListing" className="d-inline-block mx-3 text-decoration-none textWhite">
                 Headphones
-            </div>
+            </Link>
 
-            <div className="d-inline-block mx-3">
+            <Link exact to="/productsListing" className="d-inline-block mx-3 text-decoration-none textWhite">
                 Laptops
-            </div>
+            </Link>
 
-            <div className="d-inline-block mx-3">
+            <Link exact to="/productsListing" className="d-inline-block mx-3 text-decoration-none textWhite">
                 RAM
-            </div>
+            </Link>
 
-            <div className="d-inline-block mx-3">
+            <Link exact to="/productsListing" className="d-inline-block mx-3 text-decoration-none textWhite">
                 Chargers
-            </div>
+            </Link>
 
-            <div className="d-inline-block mx-3">
+            <Link exact to="/productsListing" className="d-inline-block mx-3 text-decoration-none textWhite">
                 Mobiles
-            </div>
+            </Link>
         
 
         </div>
